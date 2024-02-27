@@ -1,0 +1,67 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.section-opinions {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: none;
+  gap: 25px;
+  width: 1200px;
+  margin: auto;
+  margin-top: 50px;
+  overflow-y: hidden;
+}
+.section-opinions--div {
+  width: 350px;
+  background-color: #eee;
+  display: flex;
+  flex-direction: column;
+  justify-content: none;
+  align-items: none;
+  gap: 0px;
+}
+.section-opinions--content {
+  padding: 2em;
+  margin-top: -10px;
+}
+.section-opinions--content-center {
+  background-color: #ffcd02;
+}
+.section-opinions--content-center-1 {
+  order: 2;
+  margin-top: 50px;
+}
+.section-opinions--content-center-2 {
+  order: 1;
+}
+.section-opinions--content--header {
+  color: #333;
+  margin-bottom: 0.2rem;
+}
+.section-opinions--content--header::after {
+  content: "";
+  display: inline-block;
+  width: 24px; /* Dostosuj szerokość */
+  height: 24px; /* Dostosuj wysokość */
+  background-image: url('data:image/svg+xml;charset=utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M9.983 3v7.391c0 5.704-3.731 9.57-8.983 10.609l-.995-2.151c2.432-.917 3.995-3.638 3.995-5.849h-4v-10h9.983zm14.017 0v7.391c0 5.704-3.748 9.571-9 10.609l-.996-2.151c2.433-.917 3.996-3.638 3.996-5.849h-3.983v-10h9.983z"/></svg>');
+}
+.section-opinions--content--link {
+  color: #8c8c8c;
+}
+.section-opinions--content--text {
+  font-size: 1em;
+  line-height: 1.5;
+  margin-top: 1rem;
+}
+
+img {
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+}
